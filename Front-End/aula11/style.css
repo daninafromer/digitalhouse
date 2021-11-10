@@ -3,14 +3,11 @@
     margin-left: 0;
     padding: 0;
     box-sizing: border-box;
-}
-    
-    
+} 
 body{
     background-color: rgb(174, 141, 204);
     width: 500px;
 }
-
 .caixa-1{
     background-color: black;
     width: 100px;
@@ -18,9 +15,7 @@ body{
     text-align: center;
     padding: 40px;
     position: absolute;
-    
 }
-
 .caixa-2{
     background-color: black;
     width: 100px;
@@ -30,9 +25,7 @@ body{
     position: fixed;
     left: 200px;
     top: 150px;
-    
 }
-
 .caixa-3{
     background-color: black;
     width: 100px;
@@ -41,9 +34,7 @@ body{
     padding: 40px;
     position: absolute;
     left: 400px;
-    
 }
-
 .mini-caixa{
     background-color: aqua;
     width: 50px;
@@ -54,6 +45,5 @@ body{
     position: absolute;
     top: 20px;
     left: 25px;
-
 }
 

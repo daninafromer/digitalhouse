@@ -1,0 +1,23 @@
+*{
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.menu{
+    background-color: aquamarine;
+    height: 30px;
+    width: 700px;
+    color: black;
+    margin-left: 0px;
+}
+
+.nomeSite{
+    color: black;
+    position: absolute;
+    top: 6px;
+    left: 26px;
+}
