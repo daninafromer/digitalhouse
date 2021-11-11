@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="usuario">
+        <form action="registro" method="post">
+            <label for="usuário">Usuário:</label>
+            <input type="text" name="usuario" id="usuario">
+        </form>
+    </div>
+    <div>
+        <form action="registro3" method="post">
+            <label for="cordamensagem">Escolha uma cor: </label>
+            <select name="cordamensagem" id="cordamensagem">
+                <option value="#ff0000">Vermelho</option>
+                <option value="#00ff00">Verde</option>
+                <option value="#0000ff">Azul</option>
+                <option selected disabled>Selecione uma cor</option>
+            </select>
+        </form>
+    </div>
+    <div class="mensagem">
+        <form action="registro2" method="post">
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite a sua mensagem aqui."></textarea>
+        </form>
+    </div>
+    <button type="reset">Apagar</button>
+    <button type="submit">Enviar</button>
+
+    <div class="rodape"></div>
+</body>
+</html>

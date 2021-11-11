@@ -1,0 +1,38 @@
+*{
+    background-color:rgb(221, 219, 219);
+}
+
+.logo{
+    background-image: url(https://assets.digitalhouse.com/pg/prod/logos/pg.svg);
+    height: 27px;
+    width: 165px;
+    border-radius: 10px;
+}
+
+.usuario{
+    margin-top: 50px;
+    color: black;
+}
+
+.mensagem{
+    color: black;
+    margin-top: 20px;
+}
+
+div{
+    color: black;
+}
+
+button{
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.rodape{
+    background-color: rgb(255, 255, 255);
+    height: 18px;
+    width: 100px;
+    background-image: url(https://assets.digitalhouse.com/pg/prod/logos/dh-logo.svg);
+    position: absolute;
+    bottom: 0px;
+}
