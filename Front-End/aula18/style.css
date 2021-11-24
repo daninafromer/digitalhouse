@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+    
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    background-color: rgb(77, 77, 77);
+}
+
+.bolinha{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    animation: freia-bolinha 1.3s ease-in-out infinite;
+
+}
+
+@keyframes freia-bolinha{
+    0% {
+        transform: translateX(-550px);
+        opacity: 0;
+    }
+    25%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(-100px);
+    }
+    70%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(0);
+    }
+    80%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(-100px);
+    }
+    90%{
+        transform: translateX(0);
+        opacity: 100%;
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateX(550px);
+        opacity: 0%;
+    }
+}
