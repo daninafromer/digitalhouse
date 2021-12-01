@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://brasilturis.com.br/wp-content/uploads/2021/05/pipa-rn.jpg);
+}
+
+header{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(254, 254, 254);
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.titulo{
+    margin-left: 80px;
+}
+.subtitulo{
+    color: black;
+    padding: 0px 0px 0px 4px;
+    font-size: 15px;
+    width: 105px;
+    margin-left: 10px;
+    position: absolute;
+    top: 14px;
+    left: 130px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 4px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+    
+.fundo-formulario{
+    background-color: aliceblue;
+    margin: 90px 30px;
+    width: 500px;
+    height: 900px;
+    border-radius: 5px;
+    z-index: 9;
+    padding: 10px;
+}
+
+p{
+    margin: 10px;
+    padding: 3px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input:hover{
+    transform: scale(1.2);
+}
+
+select:hover{
+    transform: scale(1.2);
+}
+
+textarea:hover{
+    transform: scale(1.03);
+}
+
